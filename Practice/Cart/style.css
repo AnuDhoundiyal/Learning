@@ -1,0 +1,61 @@
+/* Default Css  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    line-height: 1.6;
+    color: black;
+}
+
+/* Layout Container  */
+.Container{
+    width: 100%;
+    max-width: 1300px;
+    padding: 10px 30px;
+    margin: 0 auto;
+}
+
+.item-group{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 30px;
+    gap: 40px;
+    width: 100%;
+
+}
+
+.item-1, .item-2, .item-3, .item-4, .item-5{
+    padding: 15px;
+    width: calc(20% - 40px);
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+.item-group img{
+    width: 140px;
+    border-radius: 10px;
+    
+}
+
+.item-group p{
+    font-size: 18px;
+    margin: 7px;
+
+}
+
+.item-group button{
+    background-color: antiquewhite;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 18px;
+
+}
+
+.item-group button:hover{
+    border: 2px solid burlywood;
+}
