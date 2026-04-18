@@ -28,7 +28,7 @@ body{
 
 }
 
-.item-1, .item-2, .item-3, .item-4, .item-5{
+.item{
     padding: 15px;
     width: calc(20% - 40px);
     border: 1px solid black;
